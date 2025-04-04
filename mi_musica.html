@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Música</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+     body {
+            font-family: Arial, sans-serif;
+            background: #4ac0e8; /* Color de fondo de la columna izquierda */
+            color: #494d4a; /* Color del texto */
+            margin: 0; /* Eliminar margen por defecto */
+        }
+        .container {
+            display: flex; /* Usar flexbox para dividir en columnas */
+            height: 100vh; /* Ocupa toda la altura de la ventana */
+        }
+        .left-column {
+            flex: 1; /* Toma 50% del ancho */
+            padding: 20px; /* Espaciado interno */
+            background-color: #4ac0e8; /* Color de fondo de la columna izquierda */
+        }
+        .right-column {
+            flex: 1; /* Toma 50% del ancho */
+            padding: 20px; /* Espaciado interno */
+            background-color: #e06412; /* Color de fondo de la columna derecha */
+        }
+        h1 {
+            color: #313432; /* Color del encabezado */
+            text-align: center; /* Centrar el encabezado */
+        }
+        h2 {
+            margin: 10px 0; /* Espacio reducido para encabezados */
+        }
+        img {
+            max-width: 100px;
+            border-radius: 10px; /* Bordes redondeados para la imagen */
+        }
+        a {
+            color: #0eab36; /* Color de los enlaces */
+            text-decoration: none; /* Sin subrayado */
+        }
+        a:hover {
+            text-decoration: underline; /* Subrayar al pasar el ratón */
+        }
+    
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Música Favorita</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <a href="index.html">Inicio</a> &nbsp;&nbsp;
+            <a href="presentacion.html">Presentación</a> &nbsp;&nbsp;
+            <a href="mi_musica.html">Mi música Favorita</a> &nbsp;&nbsp;
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Lista de Videos</h2>
+        <ul>
+            <li><iframe width="656" height="369" src="https://www.youtube.com/embed/jAKVeI1ampw" title="Delirio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe></li>
+            <li><iframe width="372" height="369" src="https://www.youtube.com/embed/0sYmIc73N6Q" title="Si Te Vas No Hay Lio (Remasterizado)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe></li>
+            <li><iframe width="656" height="369" src="https://www.youtube.com/embed/MYUVH4fflc8" title="Carla Morrison - Todo pasa (letra)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe></li>
+            <li><iframe width="656" height="369" src="https://www.youtube.com/embed/Gh74sVHySOg" title="Carla Morrison - Déjenme Llorar (letra)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe></li>
+        </ul>
+    </section>
+</body>
+</html>

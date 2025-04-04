@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Biografía</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #6db9e6; /* Color de fondo de la columna izquierda */
+            margin: 0; /* Eliminar margen por defecto */
+        }
+        .container {
+            display: flex; /* Usar flexbox para dividir en columnas */
+            height: 100vh; /* Ocupa toda la altura de la ventana */
+        }
+        .left-column {
+            flex: 1; /* Toma 50% del ancho */
+            padding: 20px; /* Espaciado interno */
+            background-color: #6db9e6; /* Color de fondo de la columna izquierda */
+        }
+        .right-column {
+            flex: 1; /* Toma 50% del ancho */
+            padding: 20px; /* Espaciado interno */
+            background-color: #91ef89; /* Color de fondo de la columna derecha */
+        }
+        h1 {
+            color: #313432; /* Color del encabezado */
+            text-align: center; /* Centrar el encabezado */
+        }
+        h2 {
+            margin: 10px 0; /* Espacio reducido para encabezados */
+        }
+        img {
+            max-width: 100px;
+            border-radius: 10px; /* Bordes redondeados para la imagen */
+        }
+        a {
+            color: #08b58d; /* Color de los enlaces */
+            text-decoration: none; /* Sin subrayado */
+        }
+        a:hover {
+            text-decoration: underline; /* Subrayar al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Biografía</h1>
+    </header>
+
+    <div class="container">
+        <div class="left-column">
+            <h2>Datos Personales</h2>
+            <table>
+                <tr>
+                    <td><strong>Foto Personal:</strong></td>
+                    <td><img src="imagenR.jpeg" alt="Foto Personal"></td>
+                </tr>
+                <tr>
+                    <td><strong>Nombre:</strong></td>
+                    <td>Roris Quintero Espinoza</td>
+                </tr>
+                <tr>
+                    <td><strong>Ocupación:</strong></td>
+                    <td>Estudiante</td>
+                </tr>
+                <tr>
+                    <td><strong>Fecha de Nacimiento:</strong></td>
+                    <td>05/07/1999</td>
+                </tr>
+                <tr>
+                    <td><strong>Teléfono:</strong></td>
+                    <td>0997984243</td>
+                </tr>
+                <tr>
+                    <td><strong>Email:</strong></td>
+                    <td>quinteronny67@gmail.com</td>
+                </tr>
+            </table>
+
+            <h2>Redes Sociales</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><a href="https://www.facebook.com/karlita.arteaga.3" target="_blank"><img src="icono.facebook.jpg" alt="Facebook" width="32"></a></li>
+                <li><a href="https://www.instagram.com/carlitart20/" target="_blank"><img src="icono.instagram.jpg" alt="Instagram" width="32"></a></li>
+                <li><a href="https://www.tiktok.com/@karlitaarteaga0" target="_blank"><img src="icono.tiktok.png" alt="TikTok" width="32"></a></li>
+            </ul>
+
+            <h2>Navegación</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="presentacion.html">Presentación</a></li>
+                <li><a href="mi_musica.html">Mi Música Favorita</a></li>
+            </ul>
+        </div>
+
+        <div class="right-column">
+            <h2>Información Adicional</h2>
+            <h3>Experiencia Laboral</h3>
+            <ul>
+                <li><strong>Asistente Administrativa</strong> en Empresa XYZ (2020 - 2022)
+                    <ul>
+                        <li>Gestión de documentos y atención al cliente.</li>
+                        <li>Apoyo en tareas administrativas y organización de eventos.</li>
+                    </ul>
+                </li>
+                <li><strong>Practicante de Marketing</strong> en ABC Marketing (2019)
+                    <ul>
+                        <li>Desarrollo de campañas publicitarias en redes sociales.</li>
+                        <li>Investigación de mercado y análisis de datos.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Formación Académica</h3>
+            <ul>
+                <li><strong>Licenciatura en Administración de Empresas</strong> - Universidad de Ejemplo (2017 - 2021)</li>
+                <li><strong>Bachillerato en Ciencias Sociales</strong> - Colegio Ejemplar (2015 - 2017)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+
